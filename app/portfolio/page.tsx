@@ -1,6 +1,6 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import PortfolioSection from '../components/PortfolioSection'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import PortfolioSection from "../components/PortfolioSection";
 
 export default function PortfolioPage() {
   return (
@@ -14,5 +14,5 @@ export default function PortfolioPage() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }

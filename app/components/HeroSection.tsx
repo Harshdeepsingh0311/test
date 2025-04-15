@@ -1,5 +1,5 @@
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   return (
@@ -12,15 +12,25 @@ export default function HeroSection() {
                 Precision Moulding & 3D Printing Solutions
               </h1>
               <p className="max-w-[600px] text-zinc-100 md:text-xl">
-                Transforming ideas into reality with cutting-edge technology and expert craftsmanship.
+                Transforming ideas into reality with cutting-edge technology and
+                expert craftsmanship.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button size="lg" className="bg-white text-primary hover:bg-zinc-100" asChild>
+              <Button
+                size="lg"
+                className="bg-white text-primary hover:bg-zinc-100"
+                asChild
+              >
                 <a href="#services">Explore Our Services</a>
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-                <a href="#portfolio">View Portfolio</a>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white/10"
+                asChild
+              >
+                <a href="#about">About Us</a>
               </Button>
             </div>
           </div>
@@ -40,5 +50,5 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

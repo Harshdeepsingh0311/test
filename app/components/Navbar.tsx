@@ -21,7 +21,7 @@ export default function Navbar() {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "Services", href: "#services" },
-    { name: "Portfolio", href: "#portfolio" },
+    { name: "About Us", href: "#about" },
   ];
 
   return (
@@ -39,7 +39,7 @@ export default function Navbar() {
                 scrolled ? "gradient-text" : "text-white"
               }`}
             >
-              MoldSoul
+              MouldMakers
             </Link>
           </div>
           <div className="hidden md:block">
