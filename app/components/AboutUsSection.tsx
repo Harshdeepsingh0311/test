@@ -19,9 +19,9 @@ export default function AboutUsSection() {
         </div>
 
         {/* Company Overview and Logo Explanation */}
-        <div className="grid gap-8 md:grid-cols-2 items-center mb-16">
+        <div className="text-center mb-16 max-w-3xl mx-auto">
+          <h3 className="text-2xl font-bold mb-4">Our Company</h3>
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Our Company</h3>
             <p className="text-muted-foreground">
               MouldMakers is a pioneering company in the field of precision
               moulding and 3D printing solutions. Established with a vision to
@@ -37,25 +37,26 @@ export default function AboutUsSection() {
               customer satisfaction.
             </p>
           </div>
-          <div className="flex justify-center">
-            <div className="relative w-64 h-64">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full opacity-10 blur-xl"></div>
-              <div className="relative w-full h-full flex items-center justify-center">
-                <Image
-                  src="/placeholder.svg"
-                  alt="MouldMakers Logo"
-                  width={200}
-                  height={200}
-                  className="rounded-full"
-                />
-              </div>
+        </div>
+
+        <div className="flex justify-center mb-16">
+          <div className="relative w-64 h-64">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full opacity-10 blur-xl"></div>
+            <div className="relative w-full h-full flex items-center justify-center">
+              <Image
+                src="/placeholder.svg"
+                alt="MouldMakers Logo"
+                width={200}
+                height={200}
+                className="rounded-full"
+              />
             </div>
           </div>
         </div>
 
         {/* Logo Explanation */}
         <div className="mb-16 bg-white p-8 rounded-lg shadow-md">
-          <h3 className="text-2xl font-bold mb-4">Our Logo</h3>
+          <h3 className="text-2xl font-bold mb-4 text-center">Our Logo</h3>
           <div className="grid gap-6 md:grid-cols-[1fr_3fr] items-center">
             <div className="flex justify-center">
               <Image
@@ -66,7 +67,7 @@ export default function AboutUsSection() {
                 className="rounded-full"
               />
             </div>
-            <div>
+            <div className="text-center">
               <p className="text-muted-foreground">
                 Our logo represents the essence of what we do at MouldMakers.
                 The circular design symbolizes the continuous cycle of

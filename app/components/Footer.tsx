@@ -47,14 +47,24 @@ export default function Footer() {
                   About Us
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="#contact"
+                  className="text-gray-400 hover:text-primary transition-colors"
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Contact</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Email: info@mouldmakers.com</li>
-              <li>Phone: +1 (123) 456-7890</li>
-              <li>Address: 123 Mould St, Cityville, State 12345</li>
+              <li>Email: Support@moldsoul.in</li>
+              <li>Phone: +91 9650886864</li>
+              <li>
+                Address: 58A, Rajasthan Udyog Nagar, Jahangir Puri, Delhi 110033
+              </li>
             </ul>
           </div>
         </div>
