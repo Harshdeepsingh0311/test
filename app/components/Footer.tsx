@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-white">MouldMakers</h3>
+            <h3 className="text-xl font-bold text-white">MoldSoul</h3>
             <p className="text-sm text-gray-400">
               We are a leading mould making and 3D printing company, providing
               innovative solutions for various industries.

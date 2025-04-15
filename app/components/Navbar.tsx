@@ -41,7 +41,7 @@ export default function Navbar() {
                 scrolled ? "gradient-text" : "text-white"
               }`}
             >
-              MouldMakers
+              MoldSoul
             </Link>
           </div>
           <div className="hidden md:block">

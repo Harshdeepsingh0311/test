@@ -23,7 +23,7 @@ export default function AboutUsSection() {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">Our Company</h3>
             <p className="text-muted-foreground">
-              MouldMakers is a pioneering company in the field of precision
+              MoldSoul is a pioneering company in the field of precision
               moulding and 3D printing solutions. Established with a vision to
               transform manufacturing through innovation, we combine
               cutting-edge technology with expert craftsmanship to deliver
@@ -43,7 +43,7 @@ export default function AboutUsSection() {
               <div className="relative w-full h-full flex items-center justify-center">
                 <Image
                   src="/placeholder.svg"
-                  alt="MouldMakers Logo"
+                  alt="MoldSoul Logo"
                   width={200}
                   height={200}
                   className="rounded-full"
@@ -60,7 +60,7 @@ export default function AboutUsSection() {
             <div className="flex justify-center">
               <Image
                 src="/placeholder.svg"
-                alt="MouldMakers Logo"
+                alt="MoldSoul Logo"
                 width={120}
                 height={120}
                 className="rounded-full"
@@ -68,11 +68,11 @@ export default function AboutUsSection() {
             </div>
             <div>
               <p className="text-muted-foreground">
-                Our logo represents the essence of what we do at MouldMakers.
-                The circular design symbolizes the continuous cycle of
-                innovation and improvement that drives our work. The gradient
-                colors reflect our dynamic approach to problem-solving and our
-                ability to adapt to changing industry needs.
+                Our logo represents the essence of what we do at MoldSoul. The
+                circular design symbolizes the continuous cycle of innovation
+                and improvement that drives our work. The gradient colors
+                reflect our dynamic approach to problem-solving and our ability
+                to adapt to changing industry needs.
               </p>
               <p className="text-muted-foreground mt-2">
                 The central element represents the precision and technical
@@ -97,9 +97,9 @@ export default function AboutUsSection() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Founded in 2005, MouldMakers began as a small workshop with a
-                team of three passionate engineers. Our early years were defined
-                by a commitment to craftsmanship and attention to detail, as we
+                Founded in 2005, MoldSoul began as a small workshop with a team
+                of three passionate engineers. Our early years were defined by a
+                commitment to craftsmanship and attention to detail, as we
                 specialized in traditional mould making techniques for local
                 manufacturers.
               </p>
@@ -122,7 +122,7 @@ export default function AboutUsSection() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Today, MouldMakers operates from a state-of-the-art facility
+                Today, MoldSoul operates from a state-of-the-art facility
                 equipped with the latest technology in 3D printing, CNC
                 machining, and injection moulding. Our team has grown to include
                 specialists in various fields, from materials science to digital
@@ -148,7 +148,7 @@ export default function AboutUsSection() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Looking ahead, MouldMakers is committed to pioneering new
+                Looking ahead, MoldSoul is committed to pioneering new
                 approaches in additive manufacturing and sustainable production.
                 We are investing in research and development to explore
                 biodegradable materials, energy-efficient processes, and
