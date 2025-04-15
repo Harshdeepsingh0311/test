@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -6,27 +6,36 @@ export default function Footer() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-white">MouldMakers</h3>
+            <h3 className="text-xl font-bold text-white">MoldSoul</h3>
             <p className="text-sm text-gray-400">
-              We are a leading mould making and 3D printing company, providing innovative solutions for various
-              industries.
+              We are a leading mould making and 3D printing company, providing
+              innovative solutions for various industries.
             </p>
           </div>
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Services</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#services" className="text-gray-400 hover:text-primary transition-colors">
+                <Link
+                  href="#services"
+                  className="text-gray-400 hover:text-primary transition-colors"
+                >
                   3D Printing
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-400 hover:text-primary transition-colors">
+                <Link
+                  href="#services"
+                  className="text-gray-400 hover:text-primary transition-colors"
+                >
                   Injection Moulding
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-400 hover:text-primary transition-colors">
+                <Link
+                  href="#services"
+                  className="text-gray-400 hover:text-primary transition-colors"
+                >
                   Custom Mould Design
                 </Link>
               </li>
@@ -35,7 +44,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Contact</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Email: info@mouldmakers.com</li>
+              <li>Email: info@MoldSoul.com</li>
               <li>Phone: +1 (123) 456-7890</li>
               <li>Address: 123 Mould St, Cityville, State 12345</li>
             </ul>
@@ -43,7 +52,10 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Follow Us</h3>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-primary transition-colors"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -60,7 +72,10 @@ export default function Footer() {
                 </svg>
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-primary transition-colors"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -77,7 +92,10 @@ export default function Footer() {
                 </svg>
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-primary transition-colors">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-primary transition-colors"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -104,5 +122,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

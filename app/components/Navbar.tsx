@@ -1,28 +1,28 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { useState, useEffect } from "react"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Menu } from "lucide-react"
+import Link from "next/link";
+import { useState, useEffect } from "react";
+import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 10)
-    }
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const navItems = [
     { name: "Home", href: "/" },
     { name: "Services", href: "#services" },
     { name: "Portfolio", href: "#portfolio" },
-  ]
+  ];
 
   return (
     <nav
@@ -33,8 +33,13 @@ export default function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Link href="/" className={`text-xl font-bold ${scrolled ? "gradient-text" : "text-white"}`}>
-              MouldMakers
+            <Link
+              href="/"
+              className={`text-xl font-bold ${
+                scrolled ? "gradient-text" : "text-white"
+              }`}
+            >
+              MoldSoul
             </Link>
           </div>
           <div className="hidden md:block">
@@ -44,7 +49,9 @@ export default function Navbar() {
                   key={item.name}
                   href={item.href}
                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                    scrolled ? "text-gray-600 hover:text-primary" : "text-gray-200 hover:text-white hover:bg-white/10"
+                    scrolled
+                      ? "text-gray-600 hover:text-primary"
+                      : "text-gray-200 hover:text-white hover:bg-white/10"
                   }`}
                 >
                   {item.name}
@@ -58,7 +65,9 @@ export default function Navbar() {
                 <Button
                   variant="outline"
                   size="icon"
-                  className={scrolled ? "" : "border-white text-white hover:bg-white/10"}
+                  className={
+                    scrolled ? "" : "border-white text-white hover:bg-white/10"
+                  }
                 >
                   <Menu className="h-6 w-6" />
                 </Button>
@@ -86,5 +95,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }
