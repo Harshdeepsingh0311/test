@@ -27,7 +27,7 @@ export default function HeroSection() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white hover:bg-white/10"
+                className="border-white text-white hover:bg-white/10"
                 asChild
               >
                 <a href="#about">About Us</a>
@@ -36,7 +36,7 @@ export default function HeroSection() {
           </div>
           <div className="flex items-center justify-center">
             <div className="relative w-full aspect-square">
-              <div className="absolute inset-0 bg-white rounded-full opacity-10 blur-xl"></div>
+              <div className="absolute inset-0 rounded-full opacity-10 blur-xl"></div>
               <Image
                 src="/placeholder.svg"
                 alt="3D printed mould showcase"
